@@ -1,4 +1,15 @@
+.splasher-site-header{
+    background:white;
+    padding:0px 20px;
+}
+
 .logo{
-    max-width:400px;
+    max-width:320px;
+    
+    @media only screen and(min-width:640px){
+        max-width:400px;
+    }
+    
     margin:auto;
+    overflow:hidden;
 }

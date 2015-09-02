@@ -1,12 +1,11 @@
 .splasher-site-footer{
-    border-top:2px solid #f0f0f0;
+    background:white;
     padding: 50px 20px;
     text-align: center;
-    @media(min-height:740px) and (min-width:640px){
-        position:fixed;
-    bottom:0;
-    }
     width:100%;
+    position:fixed;
+    z-index:0;
+    bottom:0;
     a{
         opacity:.8;
         transition:opacity 120ms;

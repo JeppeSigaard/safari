@@ -1,7 +1,23 @@
-article{
+.not-ready{
     
-    padding:60px 20px 90px;
-    background:#f0f0f0;
+    padding:40px 20px 30%;
+    min-height:720px;
+    
+    @media only screen and(min-width:640px){
+        min-height:500px;
+        padding:60px 20px 40%;
+    }
+    
+    @media only screen and(min-width:960px){
+        min-height:650px;
+        padding:60px 20px 90px;
+    }
+    
+    background:#f0f0f0 url(../libs/img/energisafari-folk-paa-tag_720.jpg) no-repeat center top;
+    margin-top:-20px;
+    background-size: cover;
+    position:relative;
+    z-index:2;
     
     .inner{
      max-width:640px;

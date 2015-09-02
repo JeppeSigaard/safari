@@ -1,0 +1,58 @@
+.splashercta{
+    padding:60px 20px 90px;
+    min-height:400px;
+    position:relative;
+    z-index:3;
+    box-shadow:1px 1px 10px 0px rgba(0,0,0,.3);
+    background:$es-color-light;
+    
+    margin-top:-250px;
+    @media only screen and(min-width:640px){
+        
+        margin-top:0;
+    
+    }
+    
+    .inner{
+        max-width:640px;
+        margin: auto;
+    }
+    
+    h3{
+        font-size:200%;
+        font-weight:700;
+        margin-bottom:1rem;
+    }
+    
+    form{
+        background:$es-color-white;
+        box-shadow:$base-shadow;
+        padding:10px 20px 50px;
+        
+        &.loading{
+            background:$es-color-white url(../libs/img/hex-loading.gif) center no-repeat;
+            
+            *{
+                opacity:.5;
+                pointer-events: none;
+            }
+        }
+        
+    }
+    
+    .button{
+        display: block;
+        padding:0px 20px;
+        height:40px;
+        line-height: 40px;
+        background:$es-color-green;
+        color:white;
+        text-align: center;
+        text-decoration: none;
+        transition:background 120ms;
+        
+        &:hover{
+            background:darken($es-color-green,10);
+        }
+    }
+}
