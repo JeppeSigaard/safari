@@ -1,0 +1,21 @@
+.splasher-site-footer{
+    border-top:2px solid #f0f0f0;
+    padding: 50px 20px;
+    text-align: center;
+    @media(min-height:740px) and (min-width:640px){
+        position:fixed;
+    bottom:0;
+    }
+    width:100%;
+    a{
+        opacity:.8;
+        transition:opacity 120ms;
+        
+        &:hover{
+            opacity:1;
+        }
+    }
+    img{
+        margin-left:-20px;
+    }
+}
