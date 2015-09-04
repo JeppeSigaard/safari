@@ -11,7 +11,7 @@
         <section class="not-ready">
             <article class="inner">
                 <h1>Hjemmesiden er under udarbejdelse</h1>
-                <p>Inden længe er vi klar til at præsentere relevant information og muligheder for at tage del i projektet på energisarfari.dk</p>
+                <p>Inden længe er vi klar til at præsentere relevant information og muligheder for at tage del i projektet på energisafari.dk</p>
                 <p>I mellemtiden kan du læse mere om projektet på <a href="//www.energibyenskive.dk/da/projekter/energisafari/">Energibyen Skives hjemmeside</a></p>
             </article>
         </section>
@@ -20,7 +20,7 @@
                 <h3>Få besked, når hjemmesiden er klar</h3>
                 <form action="<?php echo get_template_directory_uri(); ?>/ajax/form.php">
                     <div>
-                        <span>Ja tak, jeg vil gerne modtage en e-mail, når mere information er klar om Energi Safari</span>
+                        <span>Ja tak, jeg vil gerne modtage en e-mail, når mere information er klar om Energisafari</span>
                     </div>
                     <div class="split">
                         <div>
